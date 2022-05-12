@@ -81,12 +81,12 @@ body {
     display: flex;
     align-items: center;
     box-sizing: content-box;
-    animation: little-bounce 1s 4.231s;
+    animation: little-bounce 1s 2.231s;
 }
 
 .world {
     height: 183px;
-    animation: rightToLeft 2s linear;
+    animation: rightToLeft 1s linear;
 }
 
 .big-c {
@@ -95,7 +95,7 @@ body {
     font-size: 15rem;
     line-height: 0;
     opacity: 0;
-    animation: fadeIn 2s ease 2s;
+    animation: fadeIn 1s ease 1s;
     animation-fill-mode: forwards;
 }
 
@@ -109,6 +109,6 @@ body {
     font-size: 3.2rem;
     text-align: end;
     opacity: 0;
-    animation: bounce 0.7s linear 4s;
+    animation: bounce 0.7s linear 2s;
     animation-fill-mode: forwards;
 }
